@@ -7,21 +7,24 @@
     <link rel="stylesheet" href="styles/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
-  <body aurelia-app="main">
-    <div class="panel panel-default splash login-form">
-      <div class="panel-body">
-        <img src="img/logo.png" />
-        <span>
-          <i class="fa fa-spinner fa-pulse"></i>
-          Verifying Authentication
-        </span>
+  <body>
+    <section aurelia-app="main">
+      <div class="panel panel-default splash login-form">
+        <div class="panel-body">
+          <img src="img/logo.png" />
+          <span>
+            <i class="fa fa-spinner fa-pulse"></i>
+            Verifying Authentication
+          </span>
+        </div>
       </div>
-    </div>
 
-    <script src="jspm_packages/system.js"></script>
-    <script src="config.js"></script>
-    <script>
-      System.import('aurelia-bootstrapper');
-    </script>
+      <script src="jspm_packages/system.js"></script>
+      <script src="config.js"></script>
+      <script>
+        System.import('aurelia-bootstrapper');
+      </script>
+    </section>
+    <a href="https://github.com/davismj/sentry"><img style="position: fixed; top: 0; left: 0; border: 0; z-index: 1040" src="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>
   </body>
 </html>
