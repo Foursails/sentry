@@ -1,6 +1,7 @@
 # Sentry
+Sentry is an Aurelia template that solves a few common authentication issues. It has a special login app shell for creating an authentication app that keeps your main app secure, and an authentication manager class for tracking the state of a logged in user across the application, from session to session.
 
-[Leave me a tip! $davismj](https://cash.me/$davismj)
+Sentry is free. If you've successfully used it and it has saved you an hour of your life, consider [leaving me a tip](https://cash.me/$davismj) so I can continue building templates. 
 
 ## Running The App
 
@@ -42,3 +43,18 @@ To run the app, follow these steps.
 <script src="jspm_packages/github/webcomponents/webcomponentsjs@0.5.2/HTMLImports.js"></script>
 ```
 ## Bundling
+To build the app, follow these steps.
+
+1. To make sure the files are all properly built, execute the following command:
+
+  ```shell
+  gulp build
+  ```
+
+2. To run the bundler, execute the following command:
+
+  ```shell
+  jspm bundle '*' + aurelia-binding + aurelia-bootstrapper + aurelia-dependency-injection + aurelia-event-aggregator + aurelia-fetch-client + aurelia-framework + aurelia-history + aurelia-history-browser + aurelia-http-client + aurelia-loader + aurelia-loader-default + aurelia-logging + aurelia-metadata + aurelia-path + aurelia-route-recognizer + aurelia-router + aurelia-task-queue + aurelia-templating + aurelia-templating-binding + aurelia-templating-resources + aurelia-templating-router + bootstrap + clean-css + core-js + css + fetch + font-awesome dist/app-bundle.js --inject --minify
+  ```
+  
+Now, using any HTTP server that can serve static files, your app will be served as a bundle with a significant first-load speed improvement over your development environment.
