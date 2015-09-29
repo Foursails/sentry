@@ -1,7 +1,7 @@
 {
   "name": "Sentry",
   "version": "1.0.0",
-  "description": "An Aurelia template for with a built in authentication shell.",
+  "description": "An Aurelia template with a built in authentication shell.",
   "keywords": [
     "aurelia",
     "authentication"
