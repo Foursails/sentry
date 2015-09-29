@@ -3,13 +3,19 @@
   <head>
     <title>Aurelia</title>
     <link rel="stylesheet" href="jspm_packages/npm/font-awesome@4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="jspm_packages/github/twbs/bootstrap@3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body aurelia-app="main">
-    <div class="splash">
-      <div class="message">Aurelia Navigation Skeleton</div>
-      <i class="fa fa-spinner fa-spin"></i>
+    <div class="panel panel-default splash login-form">
+      <div class="panel-body">
+        <img src="img/logo.png" />
+        <span>
+          <i class="fa fa-spinner fa-pulse"></i>
+          Verifying Authentication
+        </span>
+      </div>
     </div>
 
     <script src="jspm_packages/system.js"></script>

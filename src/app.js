@@ -1,5 +1,4 @@
 import 'bootstrap';
-import 'bootstrap/css/bootstrap.css!';
 import { inject } from 'aurelia-framework';
 import AuthService from 'AuthService';
 
