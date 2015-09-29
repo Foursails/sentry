@@ -1,0 +1,13 @@
+<template>
+  <form class=" login-form" submit.delegate="login()">
+		<div class="panel panel-default">
+			<div class="panel-body">
+		  	<img src="img/logo.png" />
+		    <input class="form-control" type="text" placeholder="username" value.bind="username" />
+		    <input class="form-control" type="password" placeholder="password" value.bind="password" />
+		    <button class="btn btn-default pull-right" type="submit">Login</button>
+		    <span class="text-danger">${error}</span>
+			</div>
+		</div>
+  </form>
+</template>

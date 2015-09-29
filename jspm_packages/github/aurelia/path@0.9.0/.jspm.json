@@ -1,0 +1,79 @@
+{
+  "name": "aurelia-path",
+  "version": "0.9.0",
+  "description": "Utilities for path manipulation.",
+  "keywords": [
+    "aurelia",
+    "path"
+  ],
+  "homepage": "http://aurelia.io",
+  "bugs": {
+    "url": "https://github.com/aurelia/path/issues"
+  },
+  "license": "MIT",
+  "author": "Rob Eisenberg <rob@bluespire.com> (http://robeisenberg.com/)",
+  "main": "aurelia-path",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/aurelia/path"
+  },
+  "jspm": {
+    "main": "aurelia-path",
+    "format": "amd",
+    "directories": {
+      "lib": "dist/amd"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.5",
+      "traceur": "github:jmcriffey/bower-traceur@0.0.91",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.91"
+    }
+  },
+  "devDependencies": {
+    "babel": "npm:babel-core@^5.1.13",
+    "babel-runtime": "npm:babel-runtime@^5.1.13",
+    "core-js": "npm:core-js@^0.9.5",
+    "traceur": "github:jmcriffey/bower-traceur@0.0.91",
+    "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.91"
+  },
+  "aurelia": {
+    "usedBy": [
+      "aurelia-http-client",
+      "aurelia-templating",
+      "aurelia-router",
+      "aurelia-route-recognizer",
+      "aurelia-templating-router",
+      "aurelia-loader",
+      "aurelia-framework"
+    ],
+    "documentation": {
+      "links": [
+        {
+          "rel": "license",
+          "mediaType": "text/plain",
+          "title": "The MIT License (MIT)",
+          "href": "LICENSE"
+        },
+        {
+          "rel": "describedby",
+          "mediaType": "application/aurelia-doc+json",
+          "title": "API",
+          "href": "doc/api.json"
+        },
+        {
+          "rel": "version-history",
+          "mediaType": "text/markdown",
+          "title": "Change Log",
+          "href": "doc/CHANGELOG.md"
+        }
+      ]
+    }
+  },
+  "format": "amd",
+  "directories": {
+    "lib": "dist/amd"
+  },
+  "registry": "github"
+}

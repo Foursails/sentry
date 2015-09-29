@@ -1,0 +1,77 @@
+{
+  "name": "aurelia-animator-css",
+  "version": "0.15.0",
+  "description": "An implementation of the abstract Animator interface from templating which enables css-based animations.",
+  "keywords": [
+    "aurelia",
+    "animation",
+    "css",
+    "plugin"
+  ],
+  "homepage": "http://aurelia.io",
+  "bugs": {
+    "url": "https://github.com/aurelia/animator-css/issues"
+  },
+  "license": "MIT",
+  "author": "Rob Eisenberg <rob@bluespire.com> (http://robeisenberg.com/)",
+  "main": "aurelia-animator-css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aurelia/animator-css"
+  },
+  "jspm": {
+    "main": "aurelia-animator-css",
+    "format": "amd",
+    "directories": {
+      "lib": "dist/amd"
+    },
+    "dependencies": {
+      "aurelia-metadata": "github:aurelia/metadata@^0.7.3",
+      "aurelia-templating": "github:aurelia/templating@^0.14.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  },
+  "devDependencies": {
+    "babel": "npm:babel-core@^5.1.13",
+    "babel-runtime": "npm:babel-runtime@^5.1.13",
+    "core-js": "npm:core-js@^0.9.4"
+  },
+  "aurelia": {
+    "usedBy": [],
+    "documentation": {
+      "links": [
+        {
+          "rel": "license",
+          "mediaType": "text/plain",
+          "title": "The MIT License (MIT)",
+          "href": "LICENSE"
+        },
+        {
+          "rel": "describedby",
+          "mediaType": "application/aurelia-doc+json",
+          "title": "API",
+          "href": "doc/api.json"
+        },
+        {
+          "rel": "version-history",
+          "mediaType": "text/markdown",
+          "title": "Change Log",
+          "href": "doc/CHANGELOG.md"
+        }
+      ]
+    }
+  },
+  "format": "amd",
+  "directories": {
+    "lib": "dist/amd"
+  },
+  "registry": "github",
+  "dependencies": {
+    "aurelia-metadata": "github:aurelia/metadata@^0.7.3",
+    "aurelia-templating": "github:aurelia/templating@^0.14.1"
+  }
+}
