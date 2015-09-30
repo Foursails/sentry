@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0 0 60px 0;
 }
 
 .splash {
@@ -35,14 +35,6 @@ body {
   display: block;
   margin: 12px auto;
 }
-/*
-.login-form .error {
-  color: red;
-  font-size: 14px;
-  font-weight: bold;
-  font-family: monospace;
-  padding: 0 12px;
-}*/
 
 @media print
 {
@@ -61,7 +53,68 @@ section {
   margin: 0 20px;
 }
 
-/* fix bad bootstrap styling */
 .navbar-right {
   margin-right: 0!important;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  background-color: rgb(248, 248, 248);
+  border-top: 1px solid rgb(231, 231, 231);
+  text-align: center;
+}
+
+.pulse {
+  padding: 0 0.4em;
+  -webkit-animation: pulse 5s ease-in-out infinite;
+  animation: pulse 5s ease-in-out infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% { 
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  5% { 
+    -webkit-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
+  }
+  10% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  15% { 
+    -webkit-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
+  }
+  20% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes pulse {
+  0% { 
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  5% { 
+    -webkit-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
+  }
+  10% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  15% { 
+    -webkit-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
+  }
+  20% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
 }

@@ -10,9 +10,8 @@
   "bugs": {
     "url": "https://github.com/davismj/sentry/issues"
   },
-  "license": "MIT",
-  "author": "Natt Davis <davis.matthewjames@gmail.com> (http://davismj.me/)",
-  "main": "dist/commonjs/index.js",
+  "license": "Creative Commons Attribution 4.0 International License",
+  "author": "Matt Davis <davis.matthewjames@gmail.com> (http://davismj.me/)",
   "repository": {
     "type": "git",
     "url": "http://github.com/davismj/sentry"
