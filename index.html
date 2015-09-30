@@ -7,21 +7,27 @@
     <link rel="stylesheet" href="styles/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
-  <body aurelia-app="main">
-    <div class="panel panel-default splash login-form">
-      <div class="panel-body">
-        <img src="img/logo.png" />
-        <span>
-          <i class="fa fa-spinner fa-pulse"></i>
-          Verifying Authentication
-        </span>
+  <body>
+    <section aurelia-app="main">
+      <div class="panel panel-default splash login-form">
+        <div class="panel-body">
+          <img src="img/logo.png" />
+          <span>
+            <i class="fa fa-spinner fa-pulse"></i>
+            Verifying Authentication
+          </span>
+        </div>
       </div>
-    </div>
 
-    <script src="jspm_packages/system.js"></script>
-    <script src="config.js"></script>
-    <script>
-      System.import('aurelia-bootstrapper');
-    </script>
+      <script src="jspm_packages/system.js"></script>
+      <script src="config.js"></script>
+      <script>
+        System.import('aurelia-bootstrapper');
+      </script>
+    </section>
+
+    <footer class="footer">
+      Designed with <i class="fa fa-heart pulse"></i> by <a href="https://davismj.me">Matthew James Davis</a> under the <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+    </footer>
   </body>
 </html>
