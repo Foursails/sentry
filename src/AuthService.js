@@ -35,7 +35,7 @@ export default class AuthService {
 
       // .. and set root to app.
       this.app.setRoot('app');
-    // });
+    });
   }
 
   logout() {
