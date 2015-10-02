@@ -1,0 +1,28 @@
+<template>
+	<section class="row">
+
+		<ul class="col-xs-3 list-group" style="padding: 20px;">
+
+			<li class="list-group-item" if.bind="!users.length">No Users</li>
+
+			<a href="#/users/${user.id}" repeat.for="user of users">
+				<li class="list-group-item ${ $parent.activeUser == user.id ? 'list-group-item-info' : '' }">
+					${user.name}
+				</li>
+			</a>
+		</ul>
+
+		<form class="col-xs-9" submit.delegate="addUser()">
+			<h1>Submit a New Attendee</h1>
+			<div class="col-xs-9">
+				<input class="form-control" value.bind="name" placeholder="Attendee Name" />
+			</div>
+			<div class="col-xs-3">
+				<button class="btn btn-primary" type="submit">
+					<i class="fa fa-plus"></i>
+					Add Attendee
+				</button>
+			</div>
+		</form>
+	</section>
+</template>

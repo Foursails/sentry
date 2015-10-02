@@ -20,15 +20,25 @@
         <!-- We can call the logout() method directly on the object. -->
         <li><a href="#" click.delegate="auth.logout()">Log Out</a></li>
       </ul>
+
+      <ul class="nav navbar-nav">
+        <li repeat.for="row of router.navigation" class="${row.isActive ? 'active' : ''}">
+          <a href.bind="row.href">${row.title}</a>
+        </li>
+      </ul>
     </div>
   </nav>
 
-  <div class="page-host">
+  </nav>
+
+  <!-- <div class="page-host">
     <section>
       <h1>User Object</h1>
       <pre>${auth.session | toJSON }</pre>
       <h2>IsAuthenticated?</h2>
       <div>${auth.isAuthenticated()}</div>
     </section>
-  </div>
+  </div> -->
+
+  <router-view class="page-host container-fluid"></router-view>
 </template>
