@@ -1,0 +1,8 @@
+<template>
+  <section>
+    <h1>User Object</h1>
+    <pre>${auth.session | toJSON }</pre>
+    <h2>IsAuthenticated?</h2>
+    <div>${auth.isAuthenticated()}</div>
+  </section>
+</template>
